@@ -8,6 +8,11 @@
 	<version>1.0</version>
 	<description>MOD_J-ICAL_XML_DESCRIPTION</description>
 
+	<media folder="media" destination="mod_j-ical">
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+
 	<files>
 		<filename module="mod_j-ical">mod_j-ical.php</filename>
 		<folder>tmpl</folder>
