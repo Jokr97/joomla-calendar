@@ -5,7 +5,7 @@
 	<author>Lukas Schneider</author>
 	<authorUrl>https://github.com/Jokr97</authorUrl>
 	<license>GNU GENERAL PUBLIC LICENSE Version 3; see LICENSE</license>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>MOD_J-ICAL_XML_DESCRIPTION</description>
 
 	<media folder="media" destination="mod_j-ical">
