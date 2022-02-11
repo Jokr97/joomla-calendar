@@ -27,7 +27,7 @@ $script = "
             target: '',
             useIsoDateFormat: true,
             weekStart: 1,
-            xmlUrl: 'http://localhost/ical-test/'
+            xmlUrl: '" . Juri::base() . "index.php?option=com_ajax&module=j-ical&method=Get&format=xml'
         });
 	});
 ";

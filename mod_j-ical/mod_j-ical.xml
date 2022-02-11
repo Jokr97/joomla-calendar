@@ -18,6 +18,8 @@
 		<folder>tmpl</folder>
 		<folder>language</folder>
 		<filename>mod_j-ical.xml</filename>
+		<filename>helper.php</filename>
+		<filename>iCal.php</filename>
 	</files>
 
 	<updateservers>
@@ -28,13 +30,19 @@
 		<fields name="params">
 			<fieldset name="basic">
 				<field
-					name="domain"
+					name="calenderUrl"
 					type="url"
-					label="MOD_FOO_URL_LABEL"
-					description="MOD_FOO_URL_DESCRIPTION"
-					hint="https://www.example.com"
+					label="MOD_J-ICAL_URL_LABEL"
+					description="MOD_J-ICAL_URL_DESC"
 					filter="url"
 					validate="url"
+				/>
+				<field name="calenderColor" 
+					type="color" 
+					default="#ffb128" 
+					format="HEX"
+					label="MOD_J-ICAL_CALENDER_COLOR_LABEL"
+					description="MOD_J-ICAL_CALENDER_COLOR_DESC" 
 				/>
 			</fieldset>
 		</fields>
