@@ -2,7 +2,7 @@
 	<update>
 		<name>Joomla iCal-Calendar</name>
 		<description></description>
-		<element>Joomla iCal-Calendar</element>
+		<element>MOD_J-ICAL</element>
 		<type>module</type>
         <client>site</client>
 		<version>1.0.0</version>
