@@ -1,0 +1,31 @@
+{
+  "name": "mod_j-ical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass ./src/css -o ./mod_j-ical/css --output-style compressed",
+    "scss:watch": "npm run scss && node-sass ./src/css -wo ./mod_j-ical/css --output-style compressed",
+    "babel": "babel ./src/js -d ./mod_j-ical/js",
+    "zip": "npm-build-zip --source=mod_j-ical/",
+    "build": "npm run scss && npm run babel && npm run zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jokr97/joomla-calendar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jokr97/joomla-calendar/issues"
+  },
+  "homepage": "https://github.com/Jokr97/joomla-calendar#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.1",
+    "node-sass": "^7.0.1",
+    "npm-build-zip": "^1.0.3"
+  }
+}

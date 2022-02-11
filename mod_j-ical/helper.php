@@ -48,9 +48,9 @@ class modJIcalHelper {
                 $formattedStartTime = '';
             }
 
-            $currentId += 1;
-
             $result .= "<event><id>" . $currentId ."</id><name>" . $event->title() . "</name><startdate>" . $formattedStartDate  . "</startdate><enddate>" . $formattedEndDate . "</enddate><starttime>" . $formattedStartTime . "</starttime><endtime>" . $formattedEndTime . "</endtime><color>" . $color . "</color><url></url></event>";
+            
+            $currentId += 1;
         }
 
         $result .= "</monthly>";
