@@ -1,0 +1,21 @@
+<updates>
+	<update>
+		<name>Joomla iCal-Calendar</name>
+		<description></description>
+		<element>mod_j-ical</element>
+		<type>module</type>
+		<version>1.0.0</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/Jokr97/joomla-calendar/releases/download/1.0.0/mod_j-ical_1.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<infourl title="TwoClickPrivacy GitHub-Repo">
+			https://github.com/jokr97/joomla-calendar/blob/main/README.md
+		</infourl>
+		<maintainer>Lukas Schneider</maintainer>
+		<maintainerurl>https://github.com/Jokr97/joomla-calendar</maintainerurl>
+		<targetplatform name="joomla" version="3.*"/>
+	</update>
+</updates>
